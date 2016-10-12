@@ -1,0 +1,22 @@
+<div class="row" ng-repeat="ride in $ctrl.rides">
+    <div class="col-sm-1">
+        <div>{{ride.rideNumber}}</div>
+    </div>
+    <div class="col-sm-1">
+        <div>{{ride.urgencyCode.description}}</div>
+    </div>
+    <div class="col-sm-2">
+        <div>{{ride.origin.fullAddress}}</div>
+    </div>
+    <div class="col-sm-2">
+        <div>{{ride.destination.fullAddress}}</div>
+    </div>
+    <div class="col-sm-2">
+        <div>{{ride.patient.fullName}}</div>
+    </div>
+    <div class="col-sm-2">
+        <div>{{ride.patient.birthDate | date: 'dd-MM-yyyy'}}</div>
+    </div>
+    <div class="col-sm-2">
+    </div>
+</div>
