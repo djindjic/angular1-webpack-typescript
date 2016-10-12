@@ -1,5 +1,5 @@
 {
-  "name": "witte-kruis",
+  "name": "angular1-webpack-typescript",
   "version": "0.1.2",
   "description": "A seed project for a largescale angular architecture in webpack and typescript",
   "main": "/",
@@ -10,7 +10,7 @@
     "build": "./node_modules/.bin/webpack --config webpack/webpack.build.js --NODE_ENV=production",
     "postinstall": "./node_modules/.bin/typings i"
   },
-  "repository": "witte-kruis",
+  "repository": "angular1-webpack-typescript",
   "license": "MIT",
   "dependencies": {
     "angular": "1.5.8",
